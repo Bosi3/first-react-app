@@ -9,7 +9,8 @@ import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import TemporaryDrawer from './NavMenu.js'
+import TemporaryDrawer from './NavMenu.js';
+
 
 const styles = theme => ({
   root: {
@@ -82,7 +83,7 @@ function SearchAppBar(props) {
             <TemporaryDrawer/>
           </IconButton>
           <Typography className={classes.title} variant="h6" color="inherit" noWrap>
-            Material-UI
+            SP
           </Typography>
           <div className={classes.grow} />
           <div className={classes.search}>
